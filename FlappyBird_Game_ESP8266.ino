@@ -1,3 +1,36 @@
+/*
+ * Flappy Bird on ESP8266
+ * 
+ * This is an adapted version of the popular arcade game Flappy Bird, developed for the ESP8266 platform. The game uses an SSD1306 display and an active buzzer for sound effects.
+ * The bird is controlled with a single button. The player must avoid collisions with pipes while flying through them to score points.
+ * 
+ * Author: AIDevelopersMonster
+ * The source code is available on GitHub:
+ * https://github.com/AIDevelopersMonster/Flappy-Bird-on-ESP8266
+ * 
+ * Game demonstration on YouTube:
+ * https://youtu.be/M-zgmhmOkPY
+ * 
+ * Changes:
+ * - Added sound effect on pipe interaction.
+ * - Configured control via button on pin D4.
+ * - Added game graphical elements (bird and pipes).
+ * - Introduced score counter displayed on the screen.
+ * - Font setup for text using ArialMT_Plain_10.
+ * 
+ * Libraries used:
+ * - SSD1306Wire (for SSD1306 display)
+ * - Wire (for I2C interface)
+ * 
+ * Program structure:
+ * - Pin and display initialization.
+ * - Main game loop: pipe drawing, bird control, score updating.
+ * - Sound signal via active buzzer.
+ * - Restart the game upon pipe collision or going off-screen.
+ * 
+ * Version: 1.0
+ * Date: 17.12.2024
+ */
 #include <Wire.h>
 #include "SSD1306Wire.h"
 #include "images.h"  // Подключаем файл с изображениями
