@@ -69,5 +69,3 @@ git clone https://github.com/AIDevelopersMonster/Flappy-Bird-on-ESP8266.git
 - **Демонстрация игры на YouTube**: [Flappy Bird - демонстрация](https://youtu.be/M-zgmhmOkPY)
 
 ---
-
-Это описание можно использовать для README файла на GitHub, а также для других целей. Оно даст пользователям полное понимание игры и как её установить.
