@@ -13,7 +13,7 @@
  * 
  * Changes:
  * - Added sound effect on pipe interaction.
- * - Configured control via button on pin D4.
+ * - Configured control via button on pin D5.
  * - Added game graphical elements (bird and pipes).
  * - Introduced score counter displayed on the screen.
  * - Font setup for text using ArialMT_Plain_10.
